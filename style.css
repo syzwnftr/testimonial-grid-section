@@ -3,7 +3,7 @@
 :root {
   --mod-violet: hsl(263, 55%, 52%);
   --dark-grayish-blue: hsl(217, 19%, 35%);
-  --dark-blackish-blue: hsl(19, 29%, 14%);
+  --dark-blackish-blue: hsl(219, 29%, 14%);
   --white: hsl(0, 0%, 100%);
   --light-gray: hsl(0, 0%, 81%);
   --light-grayish-blue: hsl(210, 46%, 95%);
@@ -31,11 +31,11 @@ body {
 }
 
 .review {
-  /* outline: 2px solid green; */
   padding: 2rem;
   color: var(--white);
   border-radius: 0.4rem;
   margin-bottom: 1.5rem;
+  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.2);
 }
 
 .review-1 {
@@ -45,8 +45,8 @@ body {
   background-position: top 5% right 10%;
 }
 
-.review-2 {
-  background-color: var(--dark-grayish-blue);
+.daniel-img {
+  border: 3px solid rgb(139, 90, 218);
 }
 
 .user {
@@ -66,10 +66,6 @@ body {
   border-radius: 50%;
 }
 
-.daniel-img {
-  border: 3px solid rgb(139, 90, 218);
-}
-
 .name {
   font-size: 1rem;
   color: var(--light-gray);
@@ -87,4 +83,66 @@ body {
 
 .description {
   color: hsla(0, 0%, 81%, 70%);
+}
+
+.review-2 {
+  background-color: var(--dark-grayish-blue);
+}
+
+.review-2 .name {
+  color: var(--white);
+}
+
+.review-2 .title {
+  color: hsla(0, 0%, 100%, 50%);
+}
+
+.review-2 .description {
+  color: hsla(0, 0%, 100%, 70%);
+}
+
+.review-3 .name,
+.review-3 .feedback {
+  color: var(--dark-grayish-blue);
+}
+
+.review-3 .title {
+  color: hsla(217, 19%, 35%, 50%);
+}
+
+.review-3 .description {
+  color: hsla(217, 19%, 35%, 70%);
+}
+
+.review-4 {
+  background-color: var(--dark-blackish-blue);
+}
+
+.patrick-img {
+  border: 3px solid rgb(139, 90, 218);
+}
+
+.review-4 .name {
+  color: var(--white);
+}
+
+.review-4 .title {
+  color: hsla(0, 0%, 100%, 50%);
+}
+
+.review-4 .description {
+  color: hsla(0, 0%, 100%, 70%);
+}
+
+.review-5 .name,
+.review-5 .feedback {
+  color: var(--dark-grayish-blue);
+}
+
+.review-5 .title {
+  color: hsla(217, 19%, 35%, 50%);
+}
+
+.review-5 .description {
+  color: hsla(217, 19%, 35%, 70%);
 }
