@@ -35,13 +35,18 @@ body {
   padding: 2rem;
   color: var(--white);
   border-radius: 0.4rem;
+  margin-bottom: 1.5rem;
 }
 
 .review-1 {
   background-color: var(--mod-violet);
   background-image: url(./images/bg-pattern-quotation.svg);
   background-repeat: no-repeat;
-  background-position: top 0 right 10%;
+  background-position: top 5% right 10%;
+}
+
+.review-2 {
+  background-color: var(--dark-grayish-blue);
 }
 
 .user {
@@ -51,7 +56,6 @@ body {
 }
 
 .img-div {
-  outline: 1px solid black;
   margin-right: 0.5rem;
   display: flex;
   justify-content: center;
@@ -60,6 +64,10 @@ body {
 .profile-img {
   width: 70%;
   border-radius: 50%;
+}
+
+.daniel-img {
+  border: 3px solid rgb(139, 90, 218);
 }
 
 .name {
@@ -73,7 +81,7 @@ body {
 }
 
 .feedback {
-  font-size: 1.3rem;
+  font-size: 1.29rem;
   margin-bottom: 1rem;
 }
 
