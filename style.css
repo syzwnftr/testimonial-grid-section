@@ -158,20 +158,20 @@ body {
     max-width: 100%;
     padding: 4rem 2rem;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
   }
 
   .review-1 {
-    grid-column: span 3;
-  }
-
-  .review-3 {
-    order: 1;
+    grid-column: span 2;
   }
 
   .review-4 {
-    order: 2;
+    grid-column: span 2;
+  }
+
+  .review-5 {
+    grid-column: 4;
+    grid-row: 1/3;
   }
 }
