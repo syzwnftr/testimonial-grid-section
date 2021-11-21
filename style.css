@@ -151,3 +151,27 @@ body {
 .review-5 .description {
   color: hsla(217, 19%, 35%, 70%);
 }
+
+@media (min-width: 75rem) {
+  .container {
+    outline: 1px solid black;
+    max-width: 100%;
+    padding: 4rem 2rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2rem;
+  }
+
+  .review-1 {
+    grid-column: span 3;
+  }
+
+  .review-3 {
+    order: 1;
+  }
+
+  .review-4 {
+    order: 2;
+  }
+}
