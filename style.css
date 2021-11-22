@@ -158,6 +158,12 @@ main {
   color: hsla(217, 19%, 35%, 70%);
 }
 
+@media (min-width: 46.875rem) {
+  .container {
+    max-width: 660px;
+  }
+}
+
 @media (min-width: 75rem) {
   main {
     display: flex;
