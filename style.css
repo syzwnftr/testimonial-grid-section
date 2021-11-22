@@ -35,7 +35,7 @@ body {
   color: var(--white);
   border-radius: 0.4rem;
   margin-bottom: 1.5rem;
-  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
 }
 
 .review-1 {
