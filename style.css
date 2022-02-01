@@ -30,6 +30,12 @@ main {
   padding: 4rem 0;
 }
 
+.hidden {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
 .review {
   padding: 2rem;
   color: var(--white);
